@@ -12,7 +12,7 @@ def extract_mfcc(file_path, n_mfcc=13):
     mfccs_mean = np.mean(mfccs.T, axis=0)
     return mfccs_mean
 
-# Initialize lists to store features and labels
+# Initialize lists to store features and labels 
 features = []
 labels = []
 
